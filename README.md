@@ -1,9 +1,4 @@
-# React TypeScript Starter Pack
 
-To use this template click `Use this template`
+- [DEMO LINK](https://nikita-biriukov.github.io/TodoApp/)
+- React, TypeScript
 
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
