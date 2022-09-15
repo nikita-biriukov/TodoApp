@@ -81,14 +81,14 @@ export const TodoItem: React.FC<Props> = React.memo(
         data-cy="Todo"
         className={classNames('todo', { completed: todo.completed })}
       >
-        <label className="todo__status-label" htmlFor="todoStatus">
+        { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
+        <label className="todo__status-label">
           <input
             data-cy="TodoStatus"
             type="checkbox"
             className="todo__status"
             checked={todo.completed}
             onChange={changeCompleteStatus}
-            id="todoStatus"
           />
         </label>
 

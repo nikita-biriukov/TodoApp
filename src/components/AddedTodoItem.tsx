@@ -8,13 +8,13 @@ export const AddedTodoItem: React.FC<Props> = React.memo(
   ({ title }) => {
     return (
       <div data-cy="Todo" className="todo">
-        <label className="todo__status-label" htmlFor="todoInput">
+        <label className="todo__status-label" htmlFor="todoStatus">
           <input
             data-cy="TodoStatus"
             type="checkbox"
             className="todo__status"
             defaultChecked
-            id="todoInput"
+            id="todoStatus"
           />
         </label>
 
